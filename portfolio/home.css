@@ -1,0 +1,148 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+  /* overflow-y: scroll; */
+}
+.wrapper::-webkit-scrollbar {
+  display: none;
+}
+.wrapper {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: thin; /* Firefox */
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  background-color: #ffbe7b;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 5px;
+  align-items: center;
+  border-bottom: black 3px solid;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.header_img {
+  max-width: 30px;
+  max-height: 20px;
+}
+header > div {
+  background-color: #fcf6f5;
+  color: black;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease-in, color 0.5s ease-in-out,
+    box-shadow 0.8s ease;
+}
+header > div:hover {
+  background-color: #aa96da;
+  color: white;
+  box-shadow: 0 0 20px rgba(113, 96, 96, 0.7);
+}
+
+main {
+  background: linear-gradient(-135deg, #f5f7fa 0%, #bfcde4 100%);
+  /* background-color: rgba(71, 67, 67, 0.671); */
+  width: 100vw;
+  height: auto;
+  display: flex;
+}
+
+.main_head{
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.main_heading_line {
+  font-family: "Kalam", cursive;
+  text-align: center;
+  font-size: 85px;
+  width: 100%;
+}
+.main_img{
+  /* width: 50vw; */
+}
+.main_img>img{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: black solid 2px; */
+  border-radius: 15px;
+}
+
+
+.sub1 {
+  width: 100%;
+  min-height: 20vh;
+  font-size: larger;
+  color: black;
+  background-image: linear-gradient(
+    103.3deg,
+    rgba(252, 225, 208, 1) 30%,
+    rgba(255, 173, 214, 1) 55.7%,
+    rgba(162, 186, 245, 1) 81.8%
+  );
+
+  box-sizing: border-box;
+  border-radius: 35px;
+  padding: 35px;
+}
+.sub2 {
+  width: 100%;
+  min-height: 20vh;
+  text-align: end;
+  font-size: larger;
+  color: black;
+  /* background: linear-gradient(135deg, #f5f7fa 10%, #bbcbe4 100%); */
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(186, 190, 245) 0%,
+    rgb(192, 192, 245) 33.1%,
+    rgb(218, 203, 246) 90%
+  );
+  border-radius: 35px;
+  box-sizing: border-box;
+  padding: 35px;
+}
+.name {
+  font-family: "Victor Mono", monospace;
+  font-size: 25px;
+}
+.heading {
+  font-size: 45px;
+}
+
+
+
+
+footer {
+  position: relative;
+  bottom: 0px;
+  height: 3vh;
+  width: 100vw;
+  text-align: center;
+  padding: 10px 0px;
+  background-color: #f0f0f0;
+}
