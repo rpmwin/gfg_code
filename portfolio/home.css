@@ -80,17 +80,27 @@ main {
   font-size: 85px;
   width: 100%;
 }
-.main_img{
-  /* width: 50vw; */
+.main_imgg{
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
-.main_img>img{
+.main_img{
+  width: 40%;
+  background-color: #ffbe7b;
+  border-radius: 5%;
+  /* height: 100px; */
+}
+/* .main_img>img{
   width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
   /* border: black solid 2px; */
-  border-radius: 15px;
-}
+  /* border-radius: 15px;
+} */ 
 
 
 .sub1 {
@@ -108,6 +118,7 @@ main {
   box-sizing: border-box;
   border-radius: 35px;
   padding: 35px;
+  margin-bottom: 15px;
 }
 .sub2 {
   width: 100%;
@@ -125,6 +136,7 @@ main {
   border-radius: 35px;
   box-sizing: border-box;
   padding: 35px;
+  margin-bottom: 15px;
 }
 .name {
   font-family: "Victor Mono", monospace;

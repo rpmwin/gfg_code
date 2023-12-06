@@ -91,6 +91,22 @@ main {
   align-items: center;
   /* justify-content: space-between; */
 }
+
+/* Styling for GitHub repository link */
+a.github-link {
+  color: #0366d6; /* GitHub's link color */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+
+  /* Optional: Add an underline on hover */
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+
+
 .main_heading_line {
     font-family: "Kalam", cursive;
     text-align: center;
