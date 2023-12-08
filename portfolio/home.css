@@ -85,10 +85,19 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  margin: 25px;
+  
+}
+.main_imgg1{
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 .main_img{
   width: 40%;
+  border: black 2px solid;
   background-color: #ffbe7b;
   border-radius: 5%;
   /* height: 100px; */
